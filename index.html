@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landningssida med Bootstrap 4.6</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<!-- FLEX-CENTRERAD SEKTION (Hero) -->
+<section class="d-flex justify-content-center align-items-center hero">
+  <div class="text-center opac p-2">
+    <h1 class="mb-3">Dags för YOGA?</h1>
+    <p class="lead font-weight-bold mb-4">Yoga ger balans, styrka och lugn – både i kroppen och i tankarna.</p>
+    <a href="#features" class="btn btn-dark">Läs mer</a>
+  </div>
+</section>
+
+<!-- FUNKTIONSSEKTION MED ORDER OCH BREAKPOINTS -->
+<section id="features" class="container my-5">
+  <div class="row align-items-center">
+    <!-- Bild: visas endast på md och uppåt -->
+    <div class="col-md-6 d-none d-md-block order-md-2">
+     <img src="yoga5.jpeg" class="img-fluid feature-img w-100" alt="Plats för bild">
+    </div>
+
+    <!-- Text: alltid synlig -->
+    <div class="col-12 col-md-6 order-md-1">
+      <h2 class="mb-3">Varför Yoga? </h2>
+      <p class="mb-3">Yoga är ett kraftfullt verktyg för att skapa balans i en ofta stressig vardag. Genom mjuka rörelser, medveten andning och fokus på nuet hjälper yoga dig att minska spänningar i kroppen, stärka musklerna och öka rörligheten. Det ger dig en chans att landa, lyssna inåt och hitta ett lugn som håller längre än själva passet. Regelbunden yoga kan förbättra sömn, minska stressnivåer och ge ökad energi och mentalt fokus – egenskaper som gör skillnad både hemma, på jobbet och i skolan. Oavsett ålder eller erfarenhet kan yoga vara din dagliga paus för återhämtning och inre styrka.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- AVSLUTANDE SEKTION MED SPACING -->
+<section class="container text-center py-5">
+  <h3 class="mb-4">Redo att börja?</h3>
+  <p class="mb-4 px-3">
+    Vi erbjuder dig ett kostnadsfritt förslag på en skräddarsydd träningsplan, som fungerar för dig i din vardag med ditt liv och dina förutsättningar!
+  </p>
+  <a href="https://forms.gle/92duQXJu5UzA76zv8" class="btn btn-warning px-4 py-2">Kontakta oss</a>
+</section>
+
+</body>
+</html>
